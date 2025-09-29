@@ -314,40 +314,9 @@ footer {
 
 /* ----------------- RESPONSIVO ----------------- */
 @media (max-width: 768px) {
-  /* Hero */
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
-  }
-  .hero-left, .hero-right {
-    width: 100%;
-  }
-  .titulo-hero {
-    font-size: 3rem;
-  }
-  .btn-eu-quero {
-    padding: 12px 30px;
-    font-size: 16px;
-  }
-
-  /* Cards */
-  .card-wrapper {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 600px) {
-  /* Cards simplificados em telas pequenas */
-  .card-container {
-    perspective: none;
-    height: auto;
-  }
-  .card {
-    transform: none !important;
-  }
-  .card-back {
-    display: none;
-  }
+  .titulo-hero { font-size: 3rem; }
+  .hero { flex-direction: column; text-align: center; }
+  .hero-left { align-items: center; }
+  .hero-right img { width: 90%; }
+  .card-wrapper { width: 80%; margin-bottom: 20px; }
 }
